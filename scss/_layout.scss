@@ -1,0 +1,21 @@
+body {
+  
+   max-width: 393px;
+}
+#wrapper{
+     width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+   
+   background-color: grey;
+}
+
+main{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+.splash{
+  
+    margin-top: 150%;
+}
