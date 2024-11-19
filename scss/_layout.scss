@@ -1,13 +1,13 @@
 body {
   
-   max-width: 393px;
+   max-width: 430px;
 }
 #wrapper{
      width: 100vw;
     height: 100vh;
     margin: 0 auto;
    
-   background-color: grey;
+ 
 }
 
 main{
@@ -15,7 +15,17 @@ main{
     display: grid;
     justify-content: center;
 }
-.splash{
-  
-    margin-top: 150%;
+.line-container {
+   display: flex;
+   align-items: center;
+   margin: 20px 0;
 }
+.line {
+   flex-grow: 1;
+   height: 2px;
+   background-color: #000;
+   margin-right: 10px;
+    margin-left: 10px;
+}
+
+

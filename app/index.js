@@ -1,7 +1,16 @@
-import './style.css'
+import './style.scss'
 const Pokemons = require("../javascript/darkmode");{
     console.log('pokemons')
 }
+const {fetchMostPopular} = require("../javascript/newyrk");{
+    //console.log('this')
+}
+const {showMainContent} = require("../javascript/splashscreen");{
+    //console.log('this')
+}
+showMainContent
+const popularNews =  await fetchMostPopular();
+console.log(popularNews);
 
 
 

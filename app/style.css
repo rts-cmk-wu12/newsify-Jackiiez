@@ -25,4 +25,33 @@ main {
 
 .splash {
   margin-top: 150%;
+}
+
+img {
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+#main {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

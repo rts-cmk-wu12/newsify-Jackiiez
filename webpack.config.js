@@ -2,7 +2,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path");
 
 module.exports = {
-    entry: "./app/index.js",
+    //flere entries så den generere flere js filer baseret på navn
+    entry: {
+        index: "./app/index.js",
+        batman: './app/login.js',
+        mainpage: './app/mainpage.js'
+    },
     module: {
         rules: [
             {
@@ -29,7 +34,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js"
+        // dynamisk sti så man ka skrive forskellige sti navne og så vælger den en js fil udfra hva navn man skriver på html siden
+        filename: "[name].her-er-noget-javascript.js"
     },
     // plugins: [new HtmlWebpackPlugin()],
     mode: "production"
