@@ -1,12 +1,23 @@
-function showMainContent() {
+
+
+function showMainContent_two() {
     document.getElementById('splash').style.opacity = '0';
-    document.getElementById('logosection').style.opacity = '1';
+    document.querySelector(".slider").style.opacity = '1';
+    document.querySelector(".continue").style.opacity = '1';
+    document.querySelector(".buttons").style.opacity = '1';
+    document.querySelector(".scrollbar").style.opacity = '1';
+
     setTimeout(() => {
         document.getElementById('splash').style.display = 'none';
-        document.getElementById('logosection').style.display = 'grid';
+        document.querySelector(".slider").style.display = 'flex';
+        document.querySelector(".buttons").style.display = 'flex';
+        document.querySelector(".continue").style.display = 'flex';
+        document.querySelector(".scrollbar").style.display = 'flex';
         document.getElementById('main').style.display = 'block';
-    }, 500);
+
+    }, 1000);
 }
 
-setTimeout(showMainContent, 3000);
-module.exports= {showMainContent}
+setTimeout(showMainContent_two, 5000);
+module.exports= {showMainContent_two}
+

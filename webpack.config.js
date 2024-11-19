@@ -6,7 +6,8 @@ module.exports = {
     entry: {
         index: "./app/index.js",
         batman: './app/login.js',
-        mainpage: './app/mainpage.js'
+        mainpage: './app/mainpage.js',
+         onboarding: './app/onboarding.js'
     },
     module: {
         rules: [
