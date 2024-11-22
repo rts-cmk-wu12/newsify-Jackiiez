@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 const path = require("path");
 
 module.exports = {
@@ -34,10 +35,19 @@ module.exports = {
         ]
     },
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "docs"),
         // dynamisk sti så man ka skrive forskellige sti navne og så vælger den en js fil udfra hva navn man skriver på html siden
         filename: "[name].her-er-noget-javascript.js"
     },
     // plugins: [new HtmlWebpackPlugin()],
+    plugins: [
+        new CopyPlugin({
+          patterns: [
+            { from: "public", to: "docs" }
+         
+          ],
+        }),
+      ],
+  
     mode: "production"
 }
