@@ -7,7 +7,7 @@ function showMainContent() {
        
         document.getElementById('main').style.display = 'block';
         document.getElementById("logosection").style.display = 'grid';
-    }, 500);
+    }, 4000);
 
     setTimeout(showMainContent, 5000);
 }module.exports= {showMainContent}

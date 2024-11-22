@@ -3,7 +3,7 @@ import './style.scss'
 const Pokemons = require("../javascript/darkmode");{
     console.log('pokemons')
 }
-const {fetchMostPopular} = require("../javascript/newyrk");{
+const {fetchMostPopular, fetchTopStories} = require("../javascript/newyrk");{
     //console.log('this')
 }
 const {showMainContent} = require("../javascript/anothersplashscreen");{
@@ -12,6 +12,12 @@ const {showMainContent} = require("../javascript/anothersplashscreen");{
 showMainContent();
 const popularNews =  await fetchMostPopular();
 console.log(popularNews);
+
+
+
+// const topStories= await fetchTopStories();
+// console.log(topStories)
+
 
 
 

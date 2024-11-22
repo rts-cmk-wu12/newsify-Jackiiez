@@ -2,7 +2,8 @@
 
 **Navn:** 
 
-**Hold:** WUxx
+**Hold:** WU12
+
 
 **Uddannelse:** Webudvikler
 
@@ -26,7 +27,7 @@
 
 ### Redegørelse for oprindelsen af evt. tredjeparts kode anvendt i opgaveløsningen (Teknisk dokumentation)
 
-(Hvilke node-pakker har du installeret for at dit projekt virker? Beskriv kort hvilket "problem" hver pakke løser.)
+Anvendete kode fra AI til min splashscreen
 
 ---
 
@@ -37,8 +38,8 @@
 ---
 ### Vurdering af egen indsats & gennemførelse af opgaveforløbet (Arbejdsgangen)
 
-(Hvad gik godt. Hvor prioriterede du forkert. Klagesange fra de varme lande om halvfærdigt produkt, på grund af manglende nattesøvn, fordi din kæle-skildpadde havde tandpine er IKKE interessante.)
-
+det er gået meget godt men føler ik jeg havde nok tid pga vi brugte næste halvdelen af ugen på matematik
+og jeg var syg fredag ellers har jeg gjordt mit bedste for at få lavet så meget så muligt
 ---
 ### En beskrivelse af særlige punkter til bedømmelse
 
