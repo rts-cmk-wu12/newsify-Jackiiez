@@ -15,7 +15,7 @@ ContiniueButton.addEventListener('click',()=>{
     const checkedRadio = radioElements.find(radio=> radio.checked);
     const nextRadioButton= checkedRadio.parentElement.nextElementSibling
     if(nextRadioButton===null){
-        window.location='./index.html'
+        window.location='./onboarding.html'
     }
     else{
         nextRadioButton.click()
